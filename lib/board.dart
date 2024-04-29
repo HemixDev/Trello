@@ -64,7 +64,7 @@ class _BoardState extends State<Boards> {
         Uri.https('api.trello.com', '/1/boards/$boardId', {
           'key': 'ff244c6588d8673d3cebb9cb5313e263',
           'token':
-              'ATTAa496db91d75fc1d4c05cf5765a63941c58ea4548c194cdce60fccb536f9d1c76EF298BFA',
+              //'ATTAa496db91d75fc1d4c05cf5765a63941c58ea4548c194cdce60fccb536f9d1c76EF298BFA',
           'name': newName,
         }),
       );
@@ -87,7 +87,7 @@ class _BoardState extends State<Boards> {
       Uri.https('api.trello.com', '/1/boards/$boardId', {
         'key': 'ff244c6588d8673d3cebb9cb5313e263',
         'token':
-            'ATTAa496db91d75fc1d4c05cf5765a63941c58ea4548c194cdce60fccb536f9d1c76EF298BFA',
+            //'ATTAa496db91d75fc1d4c05cf5765a63941c58ea4548c194cdce60fccb536f9d1c76EF298BFA',
       }),
     );
 
